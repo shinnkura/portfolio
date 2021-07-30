@@ -1,0 +1,332 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+  font-family: 'Noto Serif JP', serif;
+  width: 100%;
+}
+
+nav {
+    color: white;
+    background-color: black;
+}
+
+.menu-wrapper {
+    width: 1200px;
+}
+
+.menu-header {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    width: 500px;
+    justify-content: space-around;
+}
+
+.navbar-nav li {
+    padding-top: 10px;
+    opacity: 0.9;
+}
+
+.navbar-nav li:hover {
+    opacity:1;
+}
+
+
+
+ .top-img{
+    background: url(img/top-img_2.png);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.title{
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+   padding: 60px 0 60px;
+   letter-spacing: 4px;
+   padding-top: 60px;
+}
+
+
+
+
+.profile img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-right{
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.profile-right .name {
+    font-size: 36px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.about_area-decreption-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+  }
+  
+  .fa-twitter {
+    color: #1DA1F2;
+    font-size: 50px;
+    opacity: 1;
+  }
+  
+  .fa-blog{
+    color: #008274;
+    font-size: 50px;
+    opacity: 1;
+  }
+  
+  .fa-instagram-square{
+    color: #D93177;
+    font-size: 50px;
+    opacity: 1;
+  }
+  
+  
+  
+  .fa-twitter:hover {
+    opacity: 0.8;
+  }
+  
+  .fa-blog:hover{
+    opacity: 0.8;
+  }
+  
+  .fa-instagram-square:hover{
+    opacity: 0.8;
+  }
+  
+  
+  
+  
+  
+
+
+
+
+.skills {
+    margin-bottom: 60px;
+}
+
+.skills h2{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.skill-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-contet{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skill-left{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skill-right{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+.items {
+   text-align: center;
+}
+
+
+
+
+
+
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+.form-content {
+    margin-bottom: 20px;
+}
+
+.form-button {
+    background-color: rgb(34, 34, 32);
+    color: white;
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    margin: 0 auto; 
+    display: block;
+    margin-bottom: 40px;
+}
+
+
+
+footer{
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
